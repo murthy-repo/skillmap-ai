@@ -1,0 +1,99 @@
+{
+  "student_profile": {
+    "name": "B.Tech Student",
+    "degree": "B.Tech",
+    "branch": "B.Tech CSE",
+    "year": "1st Year",
+    "selected_path_id": "cse_ai_rag",
+    "completed_steps": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "chat_history": [
+      {
+        "role": "user",
+        "content": "hey bro"
+      },
+      {
+        "role": "assistant",
+        "content": "💡 **Local ChromaDB Mentor Backup (Ollama connection note: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))**\n\nYou are currently on the **Full-Stack Web & Python API Engineering** track with **0%** completed.\n\n**Recommended Free Resources & AI Tools from ChromaDB:**\nBranch: B.Tech CSE | Path: Full-Stack Web & Python API Engineering | Step 3: Python Backend Engineering with FastAPI & Uvicorn. Description: Design REST APIs, Pydantic data models, and async request handling in Python. Strict Free Resources: Official FastAPI Interactive User Guide (100% Free) (https://fastapi.tiangolo.com/tutorial/); Harvard CS50P Introduction to Programming with Python (Free) (https://cs50.harvard.edu/python/). Free AI Tools: Google Colab Free Python Execution Environment (https://colab.research.google.com/). Affordable Paid Fallback: None required — official FastAPI documentation is industry gold standard.\nBranch: B.Tech CSE | Path: Full-Stack Web & Python API Engineering | Step 1: Web Foundations & Git/GitHub Open-Source Workflow. Description: Learn semantic HTML5, modern CSS Grid/Flexbox, and Git/GitHub pull-request workflows. Strict Free Resources: freeCodeCamp Responsive Web Design (100% Free) (https://www.freecodecamp.org/learn/2022/responsive-web-design/); First Contributions Open-Source Git Guide (Free) (https://github.com/firstcontributions/first-contributions). Free AI Tools: Local Ollama (gemma3:1b) - Offline Code Reviewer (https://ollama.com/download); GitHub Student Developer Pack (Free for B.Tech Students) (https://education.github.com/pack). Affordable Paid Fallback: None required — 100% covered by free resources.\n\n*(Tip: Ensure Ollama is running via `ollama run gemma3:1b` for live LLM generation!)*"
+      },
+      {
+        "role": "user",
+        "content": "how can i become web dev?"
+      },
+      {
+        "role": "assistant",
+        "content": "💡 **Local ChromaDB Mentor Backup (Ollama connection note: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))**\n\nYou are currently on the **AI, Machine Learning & Local LLM (RAG) Engineering** track with **100%** completed.\n\n**Recommended Free Resources & AI Tools from ChromaDB:**\nBranch: B.Tech CSE | Path: AI, Machine Learning & Local LLM (RAG) Engineering | Step 2: Machine Learning Foundations & Scikit-Learn. Description: Implement classification, regression, clustering, and model evaluation metrics. Strict Free Resources: NPTEL Introduction to Machine Learning - IIT Madras (Free) (https://nptel.ac.in/); Google Machine Learning Crash Course (Free) (https://developers.google.com/machine-learning/crash-course). Free AI Tools: Kaggle Free GPU/TPU Notebooks (https://www.kaggle.com/code). Affordable Paid Fallback: None required.\nBranch: B.Tech CSE | Path: AI, Machine Learning & Local LLM (RAG) Engineering | Step 3: Deep Learning & Hugging Face Transformers. Description: Build neural networks with PyTorch and run open-source NLP/Vision models via Transformers. Strict Free Resources: Hugging Face Official LLM Course (100% Free) (https://huggingface.co/learn); Fast.ai Practical Deep Learning for Coders (Free) (https://course.fast.ai/). Free AI Tools: Hugging Face Transformers Open-Source Library (Free) (https://huggingface.co/docs/transformers/installation). Affordable Paid Fallback: None required.\n\n*(Tip: Ensure Ollama is running via `ollama run gemma3:1b` for live LLM generation!)*"
+      },
+      {
+        "role": "user",
+        "content": "hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello there! 👋\n\nHow can I help you today? Do you have any questions about the resources, or are you looking for something specific? 😊"
+      }
+    ]
+  },
+  "qa_posts": [
+    {
+      "id": "post_1",
+      "author": "Aarav (1st Year B.Tech CSE)",
+      "branch": "B.Tech CSE",
+      "title": "How do I connect my FastAPI backend to local Ollama gemma3:1b without CORS errors?",
+      "body": "I pulled gemma3:1b in Ollama and it works in terminal, but how should I call localhost:11434 from Python FastAPI?",
+      "votes": 5,
+      "created_at": 1792128898.2775874,
+      "comments": [
+        {
+          "id": "c_1",
+          "author": "Sneha (2nd Year CSE)",
+          "text": "Use the Python `requests` library inside your FastAPI route to POST to `http://localhost:11434/api/chat` with `\"stream\": False`, and serve your HTML directly from FastAPI so both run on port 8000!",
+          "votes": 7
+        },
+        {
+          "id": "c_aaa080c7",
+          "author": "Peer Student",
+          "text": "idk",
+          "votes": 7
+        }
+      ]
+    },
+    {
+      "id": "post_2",
+      "author": "Karthik (1st Year B.Tech ECE)",
+      "branch": "B.Tech ECE",
+      "title": "Best 100% free simulator to practice ESP32 and Embedded C before buying hardware?",
+      "body": "I just joined 1st year ECE and want to build IoT projects without spending money on components yet.",
+      "votes": 4,
+      "created_at": 1792125298.2775874,
+      "comments": [
+        {
+          "id": "c_2",
+          "author": "Rahul (3rd Year ECE)",
+          "text": "Use Wokwi (wokwi.com)! It simulates ESP32, Arduino, OLED displays, and ultrasonic sensors 100% free in your browser.",
+          "votes": 6
+        }
+      ]
+    }
+  ],
+  "ephemeral_chat": [
+    {
+      "id": "msg_1",
+      "sender": "MentorBot",
+      "branch": "System",
+      "text": "Welcome to the 24-Hour Community Chat Room! Every message automatically disappears 24 hours after it is sent.",
+      "timestamp": 1792130698.2775874
+    },
+    {
+      "id": "msg_3f965075",
+      "sender": "B.Tech Student",
+      "branch": "B.Tech CSE",
+      "text": "hello",
+      "timestamp": 1792132609.9786193
+    }
+  ]
+}
